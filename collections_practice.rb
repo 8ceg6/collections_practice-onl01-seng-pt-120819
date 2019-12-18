@@ -33,12 +33,10 @@ end
 
 def add_s(input)
     input.each_with_index.collect do |word,index| 
-      # "#{word}s" 
       if index == 1
          word 
       else 
           "#{word}s"
-        
       end
     end
 end 
